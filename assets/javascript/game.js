@@ -25,7 +25,6 @@ function updateDisplays() {
 document.onkeyup = function(event) {
     var userGuess = event.key;
     userGuessSoFar.push(userGuess);
-    console.log(guessSoFar);
      guessSoFar.textContent = userGuessSoFar;
 
     if (userGuess === computerGuess) { 
